@@ -1,9 +1,5 @@
 # exchange
-Exchange is a mechanism for trading stocks.
-
-## Usage
-
-FIXME: write
+Exchange is a simple stock exchange built for the purpose of learning Clojure.
 
 ## License
 

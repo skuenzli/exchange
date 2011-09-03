@@ -83,10 +83,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="stock.clj" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="stock.clj" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/exchange/test/stock.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="20" selection-start="726" selection-end="726" vertical-scroll-proportion="0.71428573">
+                <state line="26" column="20" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.08050089">
                   <folding />
                 </state>
               </provider>
@@ -106,9 +115,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/exchange/core.clj" />
         <option value="$PROJECT_DIR$/test/exchange/test/core.clj" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/test/exchange/test/stock.clj" />
         <option value="$PROJECT_DIR$/src/exchange/stock.clj" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -218,6 +227,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -524,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="78" selection-end="78" vertical-scroll-proportion="0.13157895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exchange/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="55" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
@@ -547,7 +550,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/exchange/test/stock.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="726" selection-end="726" vertical-scroll-proportion="0.71428573">
+        <state line="26" column="20" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.08050089">
           <folding />
         </state>
       </provider>
