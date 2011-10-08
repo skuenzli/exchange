@@ -7,21 +7,23 @@
   )
 
 (deftest test-add
-  (def stocks (ref {}))
-  (def stock (ref {:symbol "GOOG", :name "Google"}))
-  (is (= 0 (count @stocks)))
-  (stock/add stocks stock)
-  (is (= 1 (count @stocks)))
-  (is (= stock (get @stocks "GOOG")))
+  (let [stocks (ref {})
+        stock (ref {:symbol "GOOG", :name "Google"})]
+    (is (= 0 (count @stocks)))
+    (stock/add stocks stock)
+    (is (= 1 (count @stocks)))
+    (is (= stock (get @stocks "GOOG")))
+    )
   )
 
 (deftest test-trade-updates-stock-with-details-of-trade
-  (def stock (ref {:symbol "GOOG", :name "Google", :price 524.84, :volume 100}))
-  (def quantity 300)
-  (def price 525.00)
-  (stock/trade stock quantity price)
-  (is (= price (stock :price)))
-  (is (= 400 (stock :volume)))
+  (let [stock (ref {:symbol "GOOG", :name "Google", :price 524.84, :volume 100})
+        quantity 300
+        price 525.00]
+    (stock/trade stock quantity price)
+    (is (= price (stock :price)))
+    (is (= 400 (stock :volume)))
+    )
   )
 
 (deftest test-calculate-new-volume
